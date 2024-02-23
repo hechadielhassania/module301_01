@@ -1,0 +1,85 @@
+.header,.pTitle{
+    background-color: rgb(34, 143, 246);
+    padding: 40px;
+    text-align: center;
+    color: white;
+    letter-spacing: 0.5px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.pmTitle{
+    color: rgb(34, 143, 246);
+    letter-spacing: 0.5px;
+    font-family: 'Courier New', Courier, monospace
+}
+.pmIntroduction{
+    text-align: justify;
+    letter-spacing: 0.5px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+.phases-table {
+    max-width: 100%;
+    margin: 0 auto 50px;
+}
+
+.phases-row {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: #fff;
+    border-bottom: 1px solid #ccc;
+}
+.phases-row:hover, .row:hover{
+    background-color: #a9dcf5;
+}
+
+.phases-row.header {
+    font-weight: bold;
+    background-color: #333;
+    color: #fff;
+    text-align: left;
+}
+
+.phase, .description {
+    flex: 1;
+    padding: 5px;
+}
+
+.phase {
+    font-weight: bold;
+}
+.phases-row.header .description, .header .description {
+    color: #fff;
+}
+.description {
+    color: #666;
+}
+.areas-of-attention {
+    max-width: 100%;
+    margin: 50px auto;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: #fff;
+    border-bottom: 1px solid #ccc;
+}
+
+.row.header {
+    font-weight: bold;
+    background-color: #333;
+    color: #fff;
+}
+
+.item, .description {
+    flex: 1;
+    padding: 5px;
+}
+
+.item {
+    font-weight: bold;
+}
+
